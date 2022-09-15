@@ -230,7 +230,17 @@ body {
 .section01 ol {
     padding-left: 12rem;
 } 
-
+@media screen and (min-width:437px) and (max-width:563px) {
+    .section01 ol {
+        padding-left: 8rem;
+    } 
+}
+@media screen and (min-width:350px) and (max-width:437px) {
+    .section01 ol {
+        padding-left: 6rem;
+        margin-bottom: 1%;
+    }
+}
 .section02 {
     background-color:#D3D3D3;
     margin: 19px;
@@ -258,7 +268,11 @@ body {
 .section02 .quality-symb{
     padding: 10px;
 }
-
+@media screen and (min-width:350px) and (max-width:900px) {
+    .section02 img {
+        width: 40%;
+    }
+}
 .section03 {
     background-color:#D3D3D3;
     margin: 19px;
@@ -338,7 +352,7 @@ body {
         font-size: 3rem;
     } 
 }
-    @media screen and (min-width:360px) and (max-width:581px) {
+    @media screen and (min-width:430px) and (max-width:581px) {
         .section03 h1 {
             font-size: 2.5rem;
         } 
@@ -635,7 +649,7 @@ body {
     border-radius: 45px;
 }
 .bp-item1 h2 {
-    padding: 1%;
+    text-align: center;
 }
 .bp-item1-container {
     display: flex;
@@ -678,7 +692,7 @@ body {
     border-radius: 45px;
 }
 .bp-item2 h2 {
-    padding: 1%;
+    text-align: center;
 }
 .bp-item2-container {
     display: flex;
@@ -739,7 +753,7 @@ body {
     box-shadow:0 20px 30px 0 rgb(0, 0, 0,.5);
 }
 .bp-item3 h2 {
-    padding: 1%;
+    text-align: center;
 }
 .bp3-fitem2 {
     padding: 2%;
@@ -751,6 +765,20 @@ body {
 .bp3-fitem2 h3 {
     margin: 3%;
     font-size: 2rem;
+}
+@media screen and (min-width:350px) and (max-width:456px) {
+    .bp-item1 h2 {
+        font-size: 1.5rem;
+        padding-top: 1%;
+    }
+    .bp-item2 h2 {
+        font-size: 1.5rem;
+        padding-top: 1%;
+    }
+    .bp-item3 h2 {
+        font-size: 1.5rem;
+        padding-top: 1%;
+    }
 }
 .bp3-fitem2 button{
     background-color: black;
