@@ -78,7 +78,7 @@
 /*--------------footer styling-----------*/
 .footer-bar {
     display: grid;
-    background-color:   #004830;
+    background-color:   #004953;
     color: white;
     justify-content: space-around;
     align-items: flex-start;
@@ -185,6 +185,11 @@
     margin-top: 2rem;
     border-radius: 50px;
 }
+@media screen and (min-width:400px) and (max-width:675px) {
+    .se2-banner img{
+        border-radius: 50px;
+    }
+}
 .se2-banner img{
     width: 100%;
     padding: 3%;
@@ -281,8 +286,17 @@
     }
 
  }
- @media screen and (min-width:200px) and (max-width:704px) {
+ @media screen and (min-width:507px) and (max-width:704px) {
     .se2-banner p {
         text-decoration: none;
+        padding-left: 3.5%;
+    }
+ }
+ @media screen and (min-width:200px) and (max-width:507px) {
+    .se2-banner p {
+        text-decoration: none;
+        padding-left: 4.5%;
+        padding-bottom: 4.5%;
+        
     }
  }

@@ -80,7 +80,7 @@
 /*-------------------------------footer styling---------------------------------*/
 .footer-bar {
     display: grid;
-    background-color:   #004830;
+    background-color:   #004953;
     color: white;
     justify-content: space-around;
     align-items: flex-start;
@@ -189,15 +189,15 @@ body {
 #home-page_banner{
     align-self: center;
     background-image: url("banner-home-page.png");
-    padding: 15%;
+    padding: 18%;
     background-repeat: no-repeat;
     border-radius: 2rem;
     margin: 10px 10px 0 10px
 }
-@media screen and(max-width:900px) {
+@media screen and(max-width:824px) {
     #home-page_banner{
         align-self: center;
-        background-image: url(images-webp/mobile.responsive.webp);
+        background-image: url("_122362931_gettyimages-641126262.jpg");
         padding: 15%;  
     }
 }
@@ -205,7 +205,7 @@ body {
     background-color:#D3D3D3;
     margin: 19px;
     border-radius: 50px;
-    border: 4px solid 	#004830;
+    /* border: 4px solid 	#004830; */
 }
 .section01:hover{
     box-shadow:0 20px 30px 0 rgb(0, 0, 0,.5);
@@ -215,6 +215,26 @@ body {
     font-size: 4rem;
     font-family: "Audiowide", sans-serif;
 
+}
+@media  screen and (min-width:619px) and (max-width:722px) {
+    .section01 h1{
+        font-size: 3.5rem;
+    }
+}
+@media  screen and (min-width:553px) and (max-width:619px) {
+    .section01 h1{
+        font-size: 3rem;
+    }
+}
+@media  screen and (min-width:461px) and (max-width:553px) {
+    .section01 h1{
+        font-size: 2.5rem;
+    }
+}
+@media  screen and (min-width:340px) and (max-width:461px) {
+    .section01 h1{
+        font-size: 2rem;
+    }
 }
 .section01 img {
     height: 37rem;
@@ -245,7 +265,7 @@ body {
     background-color:#D3D3D3;
     margin: 19px;
     border-radius: 50px;
-    border: 4px solid 	#008080;
+    /* border: 4px solid 	#008080; */
 }
 .section02:hover{
     box-shadow:0 20px 30px 0 rgb(0, 0, 0,.5)
@@ -277,7 +297,7 @@ body {
     background-color:#D3D3D3;
     margin: 19px;
     border-radius: 50px;
-    border: 4px solid 	#004830;
+    /* border: 4px solid 	#004830; */
 }
 .section03:hover {
     box-shadow:0 20px 30px 0 rgb(0, 0, 0,.5)
@@ -643,6 +663,16 @@ body {
     text-align: left;
     padding: 2%;
 }
+@media screen and (min-width:429px) and (max-width:833px) {
+    .bp-banner p {
+        margin: 3%;
+    }
+}
+@media screen and (min-width:300px) and (max-width:429px) {
+    .bp-banner p {
+        padding: 5%;
+    }
+}
 .bp-item1 {
     background-color:#D3D3D3;
     margin: 3%;
@@ -650,6 +680,20 @@ body {
 }
 .bp-item1 h2 {
     text-align: center;
+}
+@media screen and (min-width:361px) and (max-width:417px) {
+    .bp-item1 h2 {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:340px) and (max-width:361px) {
+    .bp-item1 h2 {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 1.2rem;
+    }
 }
 .bp-item1-container {
     display: flex;
@@ -767,10 +811,10 @@ body {
     font-size: 2rem;
 }
 @media screen and (min-width:350px) and (max-width:456px) {
-    .bp-item1 h2 {
+    /* .bp-item1 h2 {
         font-size: 1.5rem;
         padding-top: 1%;
-    }
+    } */
     .bp-item2 h2 {
         font-size: 1.5rem;
         padding-top: 1%;
